@@ -108,7 +108,7 @@ td {
 }
 .education{
     display: flex;
-    margin: 50px;
+    margin: 80px;
 }
 .nivelEdu{
     margin: 10px;
@@ -129,4 +129,11 @@ td {
 .text-image{
     text-align: center;
     padding: 10px;
+}
+footer{
+    margin-bottom:0;
+    text-align: center;
+    padding: 1rem;
+    background-color: lightcyan;
+    color: black;
 }
