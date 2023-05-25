@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    background-color: lightcyan; 
+    color: black;
+    padding: 10px;
+}
+h2{
+    text-align: center; 
+    color: black;
+    padding-right: 40px;
+}
+.header{
+    text-align: center;
+    background-color: lightcyan; 
+    color: black;
+    padding: 12px;
+    height: 300px;
+}
+nav ul{
+    background-color: lightgray;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav li{
+    display: inline-flex;
+    color: black;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+nav li:hover{
+    background-color: navy;
+}
+.header img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit:cover;
+}
+.about-me{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+}
+.contact{
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.contact li{
+    padding: 10px;
+    width: 200px;
+}
+.work-experience{
+    display: block;
+    margin: 50px;
+}
+.puesto{
+    padding-left: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 10px;
+}
+.puesto ul{
+    width: 100%;
+    list-style-type: none;
+    text-align: left;
+}
+.descripcion-puesto {
+    margin-top: 10px;
+}
+.descripcion-puesto ul{
+    width: 100%;
+    list-style-type: circle;
+    padding-top: 20px;
+}
+.tableskills{
+    display: grid;
+    place-content: center;
+}
+table{
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+thead{
+    background-color: lightcyan;
+}
+th{
+    padding: 20px 15px;
+    font-weight: 700;
+}
+td {
+    padding: 15px;
+    border-bottom: solid 1px;
+}
+.education{
+    display: flex;
+    margin: 50px;
+}
+.nivelEdu{
+    margin: 10px;
+}
+.photos h2{
+    margin: 30px;
+}
+.gallery{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8 px 0 lightgray;
+    float: left;
+    width: 350px;
+}
+.gallery img{
+    width: 100%;
+    height: 250px;
+}
+.text-image{
+    text-align: center;
+    padding: 10px;
+}
